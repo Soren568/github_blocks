@@ -1,0 +1,31 @@
+img.octocat {
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#one{
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
+    justify-content: space-between;
+}
+
+#two{
+    background: rgb(153,0,182);
+background: linear-gradient(90deg, rgba(153,0,182,1) 11%, rgba(255,0,0,1) 100%);
+    justify-content: space-evenly;
+}
+
+#three{
+    background: rgb(0,182,58);
+background: linear-gradient(90deg, rgba(0,182,58,1) 0%, rgba(255,222,0,1) 100%);
+    justify-content: space-between
+}
